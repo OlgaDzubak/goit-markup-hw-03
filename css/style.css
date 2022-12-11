@@ -212,7 +212,7 @@ h1, h2, h3, p {
 
 /*Styles: section "What we are doing" */
 .whatwearedoing-section{
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .whatwearedoing-title {
   padding-bottom: 72px;
@@ -231,11 +231,11 @@ h1, h2, h3, p {
 
 /*Section: Our team*/
 .ourteam-section {
+  padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--cloud);
 }
 .ourteam-title {
-  padding-top: 120px;
   margin-bottom: 72px;
   text-align: center;
 
@@ -286,6 +286,7 @@ h1, h2, h3, p {
   background-color: var(--navy-blue);
 }
 .logo-word-footer {
+  display: block;
   margin-bottom: 16px;
 
   font-family: "Raleway", sans-serif;
@@ -365,13 +366,10 @@ h1, h2, h3, p {
 } 
 .project-card{
   flex-basis: calc((100% - 48px) / 3); 
-
   background: var(--herotext-color);
-  border: 0.5px solid var(--cloud);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .project-card:active{
-  border: 0.5px solid var(--cloud);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .project-card-link{
@@ -379,6 +377,9 @@ h1, h2, h3, p {
 }
 .project-card-content{
   padding: 32px 16px; 
+  border-left: 0.5px solid var(--cloud);
+  border-right: 0.5px solid var(--cloud);
+  border-bottom: 0.5px solid var(--cloud);
 }
 .project-card-caption{
   margin-bottom: 8px;
